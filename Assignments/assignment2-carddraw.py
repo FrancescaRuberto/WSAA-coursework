@@ -10,3 +10,9 @@ response = requests.get(url)
 # Get the deck id
 deck = response.json()
 deck_id = deck['deck']
+
+# Draw 5 cards from the deck
+draw_cards_url = "https://deckofcardsapi.com/api/deck/<<deck_id>>/draw/?count=5"
+response = requests.get(url)
+cards = response.json()
+
