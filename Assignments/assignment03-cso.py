@@ -9,3 +9,9 @@ url = 'https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/FIQ
 # Send request to get the data
 response = requests.get(url)
 
+# Check if request was successful
+if response.status_code == 200:
+    with open('cso.json', 'w') as file:
+        file.write(response.text)
+else:
+    print('Could not retrieve data:', response.status_code)
