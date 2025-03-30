@@ -11,3 +11,7 @@ file_path = "test.txt"
 g = Github(apiKey)
 repo = g.get_repo(repository_name)
 
+# I get the content of the file
+file_info = repo.get_contents(file_path)
+original_content = file_info.decoded_content.decoded("utf-8")
+
