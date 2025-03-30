@@ -15,3 +15,6 @@ repo = g.get_repo(repository_name)
 file_info = repo.get_contents(file_path)
 original_content = file_info.decoded_content.decoded("utf-8")
 
+# I now replaces all the "Andrews" in the file with my name
+updated_content = original_content.replace("Andrew", my_name)
+
