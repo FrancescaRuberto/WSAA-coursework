@@ -54,7 +54,7 @@ This Python script retrieves the dataset for the "Exchequer account (historical 
 
 Expected outcome: 
 - The script will retrieve the "Exchequer account (historical series") dataset from the CSO API
-- The data will be saved into a file named [cso.json](https://github.com/FrancescaRuberto/WSAA-coursework/blob/main/Assignments/cso.json)(Ceck [Assignements folder](https://github.com/FrancescaRuberto/WSAA-coursework/tree/main/Assignments) for reference)
+- The data will be saved into a file named [cso.json](https://github.com/FrancescaRuberto/WSAA-coursework/blob/main/Assignments/cso.json)(Check [Assignements folder](https://github.com/FrancescaRuberto/WSAA-coursework/tree/main/Assignments) for reference)
 
 ### Resources Used
 
