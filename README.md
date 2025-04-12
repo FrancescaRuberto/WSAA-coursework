@@ -236,7 +236,7 @@ You can find the modified file here: [Link to `test.txt`](https://github.com/Fra
 ### Description
 This Python script reads a file from a GitHub repository, replaces all instances of the text **"Andrew"** with your name, commits the changes, and then pushes the modified file back to the repository.
 
-**Filename:** [Assignment04-replace-text.py](https://github.com/FrancescaRuberto/WSAA-coursework/blob/main/Assignments/assignment04-github.py)
+**Filename:** [Assignment04-github.py](https://github.com/FrancescaRuberto/WSAA-coursework/blob/main/Assignments/assignment04-github.py)
 
 The program uses the **`PyGithub`** library to interact with the GitHub API, and the **API key** is securely stored in a separate **`config.py`** file to avoid exposing sensitive information.
 
